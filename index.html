@@ -4,9 +4,98 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FirstProject</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>Here is something</div>
+    <header>
+        <section class="hero is-medium">
+            <img class="back-img image" src="./assets/images/pier-beach.jpg">
+            <div class="centered title-container">Sought Dashboard
+                <h2 class="subtitle">Based on the <a href="https://bulma.io">Sweat</a> of Team 16</h2>
+            </div>
+            <div class="image container title-container has-text-centered">
+            </div>
+        </section>
+    </header>
+    <div class="columns">
+        <div class="column">
+          First column
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                  <figure class="image is-48x48">
+                    <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <p class="title is-4">John Smith</p>
+                  <p class="subtitle is-6">@johnsmith</p>
+                </div>
+              </div>
+              <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                <a href="#">#css</a> <a href="#">#responsive</a>
+                <br>
+                <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          Second column
+        </div>
+        <div class="column">
+          Third column
+        </div>
+        <div class="column">
+          Fourth column
+        </div>
+        <div class="column">
+            Fifth column
+          </div>
+      </div>  
+    <div class="container" >
+        <div class="columns">
+            <div class="column is-half">
+                <h2>Event by City:</h2>
+                <input type="text" class="searchInput" placeholder="ex. San Antonio">
+                <button type="submit" class="searchBtn"><i class="fas fa-search-location"></i></button>
+            </div>
+            <div class="column">
+                <div class="icon-block">
+                    <h2 class="center brown-text"><i class="material-icons">Events</i></h2>
+                    <h5 class="center">User Experience Focused</h5>
+                    <p class="light">By utilizing elements and principles of Material Design, we were able to create a
+                        framework that incorporates components and animations that provide more feedback to users.
+                        Additionally, a single underlying responsive system across all platforms allow for a more unified
+                        user experience.</p>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!-- <div class="col card-item">
+        <h2 class="cityName bg-dark text-light sticky-top">City Name</h2>
+        <h3 class="currentDate"></h3>
+        <img class="weatherIcon"></img>
+        <div class="temp">Temperature:</div>
+        <div class="humidity">Humidity:</div>
+        <div class="windSpeed">Wind Speed:</div>
+        <div class="windDirect">Wind From deg:</div>
+        <div class="uvIndex">UV Index:</div>
+    </div> -->
+    <div class="col card-item">
+        <h2 class="cityName bg-dark text-light sticky-top">Event</h2>
+        <h3 class="currentDate"></h3>
+        <img class="weatherIcon"></img>
+    </div>
 </body>
 </html>

@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(164, 167, 162);
+}
+
+.back-img {
+  background-position: 100px 5px;
+  padding: 0 0 0 0;
+  height: 45rem;
+  width: 100%;
+}
+
+.centered {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+  font-weight: bold;
+  color: wheat;
+  text-shadow: black 1px 1px;
+}
