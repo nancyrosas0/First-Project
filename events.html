@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Train+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/events.css" />
+
+    <title>SEEK - Events</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <a href="#"> SEEK </a>
+      </h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="./index.html">Search for Events</a>
+          </li>
+          <li>
+            <a href="#">About Us</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <p>Enter the city: <input id="events" /></p>
+      <button id="submit">Search</button>
+
+      <section class="events bg-events">
+        <div id="cards"></div>
+        <div id="weather">
+          <div class="card weather-card">
+            <div class="card-content weather-box">
+              <div class="content">
+                Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at
+                eros. Donec id elit non mi porta gravida at eget metus. Cum
+                sociis natoque penatibus et magnis dis parturient montes,
+                nascetur ridiculus mus. Cras mattis consectetur purus sit amet
+                fermentum.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-json/2.6.0/jquery.json.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./assets/js/events.js"></script>
+  </body>
+</html>
